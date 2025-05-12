@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <button class="toast-btn default" onclick="toast('Default message')">Default Toast</button>
+    <button class="toast-btn success" onclick="toast.success('Success!')">Success Toast</button>
+    <button class="toast-btn error" onclick="toast.error('Something went wrong!')">Error Toast</button>
+    <button class="toast-btn dismiss" onclick="toast.dismissAll()">Dismiss All</button>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
